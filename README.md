@@ -9,6 +9,10 @@
 ## Project Description
 This project is a website for an Online Event Management System For Businesses named as <b>"Event.lk"</b>  created with JAVA, HTML, CSS, JavaScript, and MySQL. This web application utilizes the MVC architecture and JSP-Servlets for seamless and organized development. Hosted on the Tomcat server.
 <img  src="https://github.com/inupaUdara/Event.lk/blob/main/Site%20Images/Screenshot%20(1225).png"  alt="Landing_Page">
+
+## About the Project
+The website was developed using Java, HTML, CSS, JavaScript, Bootstrap, and MySQL, this platform seamlessly integrates with the Tomcat server, employing a robust MVC architecture and JSP-Servlets. Our design makes sure the interface is easy to use, while JavaScript's dynamic interactivity offers a responsive and interesting user experience. It seamlessly facilitates event creation, user registration, and responsive event listings. Simplify event planning and participation with this comprehensive web solution.
+
 <div  align="center">
   
 ## Contributors
