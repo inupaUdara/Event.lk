@@ -10,6 +10,7 @@
 This project is a website for an Online Event Management System For Businesses named as <b>"Event.lk"</b>  created with JAVA, HTML, CSS, JavaScript, and MySQL. This web application utilizes the MVC architecture and JSP-Servlets for seamless and organized development. Hosted on the Tomcat server.
 <img  src="https://github.com/inupaUdara/Event.lk/blob/main/Site%20Images/Screenshot%20(1225).png"  alt="Landing_Page">
 <div  align="center">
+  
 ## Contributors
 Contributors to make BizzSup successful.<br><br>
 <a href="https://www.linkedin.com/in/inupa-udara-02444728a/"><img src="https://avatars.githubusercontent.com/u/127815279?v=4" alt="Inupa" title="Inupa" width="70" height="70"/></a>
