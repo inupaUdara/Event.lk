@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../images/ticket-details.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+div.reg-container{
+    width: 420px;
+   
+    align-items: center;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    padding: 40px;
+    margin-top: 80px;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-bottom: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    border-radius: 10px;
+    
+}
+.wrapper .input-box{
+    width: 100%;
+    
+}
+
+div.reg-container div.wrapper input{
+    outline: none;
+    border: none;
+    border-radius: 0;
+    background: transparent;
+   	color: whitesmoke;
+    width: 100%;
+    border-bottom: 2px solid rgba(255, 255, 255, .2);
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 16px;
+}
+
+
+
+.wrapper h1{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: whitesmoke;
+}
+
+
+
+.input-box input::placeholder{
+    color: #fff;
+    font-size: 12px;
+
+}
+label{
+    font-weight: 700;
+    color: #fff;
+    font-size: 16px;
+}
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.wrapper .btn{
+    width: 100%;
+    height: 43px;
+    background: #fff;
+    border: none;outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+     margin-top: 20px;
+}
+
+.btn2{
+	
+    color: 1c1c1e;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    font-size: 14px;
+    padding: 5px 12px;
+    font-weight: 500;
+}

@@ -1,0 +1,116 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins:wght@500&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins",sans-serif;
+		
+}
+
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+a:hover{
+	color: rgb(62, 137, 153);
+}
+ul{
+    list-style: none;
+}
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
+}
+.links{
+    display: flex;
+    align-items: center;
+}
+.links li{
+    margin: 0 30px;
+}
+header{
+    width: 100vm;
+    height: 100vh;
+    background-image:url(../images/banner_bg.png);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.header-content{
+    margin-bottom: 150px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.header-content h2{
+    font-size: 4vmin;
+}
+.header-content h1{
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.reg{
+    padding: 8px 15px;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    color: black;
+}
+.btn{
+    color: #fff;
+    border: 3px solid #fff;
+    background-color: transparent;
+    position: absolute; 
+    top: 80%; 
+    left: 50%;
+    transform: translateX(-50%); 
+    width: 15%; 
+    outline: none;
+    padding: 12px;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: background-color 0.4s, top 0.4s; 
+    
+
+}
+.btn:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.btn2{
+	
+    color: 1c1c1e;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    font-size: 14px;
+    padding: 5px 12px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.btn3{
+	border: none;
+	outline: none;
+	font-size: 16px;
+	font-weight: 500;
+	 background: none;
+	 color: #fff;
+	cursor: pointer;
+}

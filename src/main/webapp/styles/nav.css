@@ -1,0 +1,36 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins:wght@500&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins",sans-serif;
+		
+}
+
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+ul{
+    list-style: none;
+}
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
+}
+.links{
+    display: flex;
+    align-items: center;
+}
+.links li{
+    margin: 0 30px;
+}

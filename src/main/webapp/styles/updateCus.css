@@ -1,0 +1,162 @@
+
+@charset "ISO-8859-1";
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(../images/accBg1.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+div.reg-container{
+    width: 450px;
+   
+    align-items: center;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    padding: 40px;
+    margin-top: 80px;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-bottom: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    border-radius: 10px;
+    
+}
+.wrapper .input-box{
+    width: 100%;
+    
+}
+
+div.reg-container div.wrapper input{
+    outline: none;
+    border: none;
+    border-radius: 0;
+    background: transparent;
+   	color: whitesmoke;
+    width: 100%;
+    border-bottom: 2px solid rgba(255, 255, 255, .2);
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 16px;
+}
+
+
+
+.wrapper h1{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: whitesmoke;
+}
+
+
+
+.input-box input::placeholder{
+    color: #fff;
+    font-size: 12px;
+
+}
+label{
+    font-weight: 700;
+    color: #fff;
+    font-size: 16px;
+}
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.wrapper{
+    width: 600px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+
+}
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+}
+
+.wrapper .input-box{
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+    }
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+.wrapper .btn {
+   	background: blue;
+    height: 45px;
+    border: none;outline: none;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    padding-top: 8px;
+    padding-left:30px;
+    padding-right:30px;
+    padding-bottom: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 100px;
+  }  
+.btn2{
+	
+    color: 1c1c1e;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    font-size: 14px;
+    padding: 5px 12px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.btn3{
+	border: none;
+	outline: none;
+	font-size: 16px;
+	font-weight: 500;
+	 background: none;
+	 color: rgb(255, 255, 255);
+	cursor: pointer;
+}

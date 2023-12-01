@@ -1,0 +1,139 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins:wght@500&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins",sans-serif;
+		
+}
+
+body{
+    background-color: #e8edf2;
+
+}
+a{
+    text-decoration: none;
+    color:#1c1c1e;
+}
+
+.logo{
+	color:#1c1c1e;
+}
+ul{
+    list-style: none;
+}
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
+}
+.links{
+    display: flex;
+    align-items: center;
+}
+.links li{
+    margin: 0 30px;
+}
+
+div.admin-container{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    padding: 40px;
+    margin-top: 80px;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-bottom: 40px;
+    box-shadow: 0 50px 50px -50px darkslategray;
+    
+    
+}
+.btn2{
+	
+    color: #fff;
+    background-color: #1c1c1e;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    font-size: 14px;
+    padding: 5px 12px;
+    font-weight: 500;
+}
+div.admin-container div.wrapper h2{
+    color:#1c1c1e;
+    margin-bottom: 10px;
+}
+div.admin-container div.wrapper input{
+    outline: none;
+    border: none;
+    border-radius: 0;
+    width: 100%;
+    border-bottom: 2px solid #1c1c1e;
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 14px;
+}
+label{
+    font-weight: 700;
+}
+.wrapper button{
+    color: white;
+    background-color: #1c1c1e;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    font-size: 14px;
+    padding: 5px 12px;
+    font-weight: 500;
+
+}
+.table-section{
+    height: 650px;
+    overflow: auto;
+}
+table{
+    width: 100%;
+    table-layout: fixed;
+    min-width: 1000px;
+    border-collapse: collapse;
+    
+    
+}
+
+thead th{
+    position: sticky;
+    top: 0;
+    background-color: #1c1c1e;
+    color: white;
+    font-size: 15px;
+}
+
+th,td{
+    border-bottom: 1px solid #dddddd;
+    padding: 10px 20px;
+    word-break: break-all;
+    text-align: center;
+}
+button{
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 10px;
+    color: #ffffff;
+}
+td button:nth-child(1){
+    background-color: #f80000;
+}
+
+td button:nth-child(2){
+    background-color: #0298cf;
+}
