@@ -1,0 +1,78 @@
+@charset "ISO-8859-1";
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+body{
+    background-color: #e8edf2;
+
+}
+.admin-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 7%;
+    padding-right: 7%;
+    color: white;
+    background-color: #1c1c1e;
+
+}
+.admin-header button{
+    color: #1c1c1e;
+    background-color: white;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    font-size: 14px;
+    padding: 5px 12px;
+    font-weight: 500;
+    
+}
+.add-staff button{
+    color: white;
+    background-color: #1c1c1e;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    font-size: 14px;
+    padding: 5px 12px;
+    font-weight: 500;
+
+}
+
+div.admin-container{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    padding: 40px;
+    margin-top: 40px;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-bottom: 40px;
+    box-shadow: 0 50px 50px -50px darkslategray;
+    
+    
+}
+div.admin-container div.add-staff h2{
+    color:#1c1c1e;
+    margin-bottom: 10px;
+}
+div.admin-container div.add-staff input{
+    outline: none;
+    border: none;
+    border-radius: 0;
+    width: 100%;
+    border-bottom: 2px solid #1c1c1e;
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 14px;
+}
+label{
+    font-weight: 700;
+}
