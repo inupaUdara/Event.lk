@@ -16,7 +16,7 @@ The website was developed using Java, HTML, CSS, JavaScript, Bootstrap, and MySQ
 <div  align="center">
   
 ## Contributors
-Contributors to make BizzSup successful.<br><br>
+Contributors to make Event.lk successful.<br><br>
 <a href="https://www.linkedin.com/in/inupa-udara-02444728a/"><img src="https://avatars.githubusercontent.com/u/127815279?v=4" alt="Inupa" title="Inupa" width="70" height="70"/></a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://www.linkedin.com/in/yasindu-balasooriya-56138a229/"><img src="https://avatars.githubusercontent.com/u/124476484?v=4" alt="Yasindu" title="Yasindu" width="70" height="70"/></a>
